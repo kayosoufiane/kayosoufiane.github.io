@@ -1,27 +1,35 @@
-## Theme Details & Demo
+# Soufiane KHATTAB — Portfolio & CV Professionnel
 
-**Try it:** https://kayosoufiane.github.io
+> **Site en ligne :** [https://kayosoufiane.github.io](https://kayosoufiane.github.io)
 
-Orbit is a free Bootstrap 4 resume/CV template designed for developers. Looking to **impress your potential employer**? Get this template and you can **send an online resume/CV** instead of a word/pdf attachment. You can **easily make different versions of your online resume/CV** to tailor for different job positions too. 
+Bienvenue sur le dépôt du site personnel et portfolio de **Soufiane KHATTAB**, Architecte Solution & Enterprise AI Architect (18+ ans d'expérience).
 
-## Author & License
+---
 
-This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
+## 🎯 Profil & Expertise
 
-If you'd like to **use the template without the attribution**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/)
+- **Architecture d'Entreprise & Gouvernance SI :** TOGAF, Urbanisation, Alignement IT / Stratégie Métier, Comités d'Architecture (COMARCH), Microservices & SOA.
+- **Intelligence Artificielle & Data :** LLM, RAG, NLP, Machine Learning, IBM Watson Suite, Tesseract OCR, Kafka, Snowflake, Spark.
+- **Cloud & DevOps :** Kubernetes (CKAD), Docker, Terraform, Ansible, CI/CD Jenkins, GitLab, multi-cloud (AWS, Azure, GCP, IBM Cloud).
+- **Génie Logiciel :** Java / Java EE, Spring Boot, Groovy/Grails, Node.js, Low-Code (Simplicité), PostgreSQL, Oracle.
 
-#### Follow Xiaoying
+---
 
-[Twitter](https://twitter.com/3rdwave_themes)
+## 🚀 Caractéristiques du Site
 
-[Facebook](https://www.facebook.com/3rdwavethemes/)
+- **Modern UI & Responsive Design :** Conception 2026 élégante, épurée et responsive (Mobile / Tablette / Desktop).
+- **Thème Sombre / Clair (Dark Mode) :** Bascule instantanée avec persistance dans le `localStorage` et détection des préférences système.
+- **Filtre Interactif de Compétences :** Navigation dynamique par domaines (IA & Data, Cloud & DevOps, Architecture, Backend & Logiciel).
+- **Parcours & Chronologie :** Présentation détaillée des 13 missions professionnelles majeures (AFD, CMA-CGM, DILA, PwC, Softeam, CA-CIB, etc.).
+- **Optimisé pour l'Impression / PDF :** Styles `@media print` dédiés pour générer un CV PDF propre directement via le navigateur (`Ctrl+P` ou bouton *Imprimer / PDF*).
+- **Performance & Hébergement GitHub Pages :** Aucun pipeline de build lourd requis, servit instantanément par GitHub Pages via CDN (Tailwind CSS, FontAwesome 6, Google Fonts).
 
-[Dribbble](https://dribbble.com/Xiaoying)
+---
 
-[Medium](https://medium.com/@3rdwave_themes)
+## 📬 Contact
 
-[Linkedin](https://uk.linkedin.com/in/xiaoying)
-
-## Credits
-- [Bootstrap](http://getbootstrap.com/)
-- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
+- **Email :** [soufiane.khattab@gmail.com](mailto:soufiane.khattab@gmail.com)
+- **Téléphone :** 06 51 59 09 07
+- **LinkedIn :** [linkedin.com/in/soufiane-khattab](https://www.linkedin.com/in/soufiane-khattab/)
+- **GitHub :** [github.com/kayosoufiane](https://github.com/kayosoufiane)
+- **Localisation :** Paris, France
