@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soufiane KHATTAB | Architecte Solution & IA | Portfolio & CV</title>
     
+    <!-- Security Hardening: Content Security Policy & Safe Metadata -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'self'; form-action 'none';">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- Anti-Clickjacking Defense (Frame-Busting) -->
+    <style id="antiClickjack">body{display:none !important;}</style>
+    <script>
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            if (antiClickjack && antiClickjack.parentNode) {
+                antiClickjack.parentNode.removeChild(antiClickjack);
+            }
+        } else {
+            top.location = self.location;
+        }
+    </script>
+    
     <!-- Meta SEO -->
     <meta name="description" content="Portfolio et CV de Soufiane KHATTAB, Architecte Solution & Enterprise AI Architect avec plus de 18 ans d'expérience (Cloud, IA, TOGAF, Kubernetes, Microservices).">
     <meta name="author" content="Soufiane KHATTAB">
@@ -63,13 +81,20 @@
         }
     </script>
 
-    <!-- Google Analytics (Maintained) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFB7G53NH7"></script>
+    <!-- Google Analytics (Privacy-Aware with Do-Not-Track Check & IP Anonymization) -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-HFB7G53NH7');
+        var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+        if (dnt !== "1" && dnt !== "yes") {
+            var gaScript = document.createElement('script');
+            gaScript.async = true;
+            gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-HFB7G53NH7';
+            document.head.appendChild(gaScript);
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HFB7G53NH7', { 'anonymize_ip': true });
+        }
     </script>
 
     <style>
@@ -247,15 +272,15 @@
                             </span>
                         </div>
 
-                        <!-- Direct Contacts & Socials -->
+                        <!-- Direct Contacts & Socials (Anti-Scraping Protected) -->
                         <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-3">
-                            <a href="mailto:soufiane.khattab@gmail.com" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-medium text-xs sm:text-sm shadow-md shadow-brand-500/20 transition-all transform hover:-translate-y-0.5">
+                            <a href="#" class="protected-contact-email inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-medium text-xs sm:text-sm shadow-md shadow-brand-500/20 transition-all transform hover:-translate-y-0.5" title="Envoyer un email">
                                 <i class="fas fa-envelope"></i>
-                                <span>soufiane.khattab@gmail.com</span>
+                                <span class="contact-email-text">Contact email</span>
                             </a>
-                            <a href="tel:0651590907" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium text-xs sm:text-sm border border-slate-200 dark:border-slate-700 transition-all">
+                            <a href="#" class="protected-contact-phone inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-medium text-xs sm:text-sm border border-slate-200 dark:border-slate-700 transition-all" title="Appeler">
                                 <i class="fas fa-phone text-emerald-500"></i>
-                                <span>06 51 59 09 07</span>
+                                <span class="contact-phone-text">Téléphone</span>
                             </a>
                             <a href="https://www.linkedin.com/in/soufiane-khattab/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-blue-600/10 hover:bg-blue-600 text-blue-600 hover:text-white dark:bg-blue-900/30 dark:hover:bg-blue-600 dark:text-blue-400 dark:hover:text-white flex items-center justify-center transition-all" title="Profil LinkedIn">
                                 <i class="fab fa-linkedin-in text-base"></i>
@@ -1242,13 +1267,13 @@
             </div>
 
             <div class="flex flex-wrap items-center justify-center gap-4 pt-2">
-                <a href="mailto:soufiane.khattab@gmail.com" class="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold text-sm shadow-lg shadow-brand-500/25 transition-all transform hover:-translate-y-0.5">
+                <a href="#" class="protected-contact-email inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold text-sm shadow-lg shadow-brand-500/25 transition-all transform hover:-translate-y-0.5" title="Envoyer un email">
                     <i class="fas fa-envelope"></i>
                     <span>Envoyer un message</span>
                 </a>
-                <a href="tel:0651590907" class="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-100 font-semibold text-sm border border-slate-200 dark:border-slate-700 shadow-sm transition-all">
+                <a href="#" class="protected-contact-phone inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-100 font-semibold text-sm border border-slate-200 dark:border-slate-700 shadow-sm transition-all" title="Appeler">
                     <i class="fas fa-phone text-emerald-500"></i>
-                    <span>06 51 59 09 07</span>
+                    <span class="contact-phone-text">06 •• •• •• ••</span>
                 </a>
                 <a href="https://www.linkedin.com/in/soufiane-khattab/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-[#0077b5] hover:bg-[#006097] text-white font-semibold text-sm shadow-md transition-all">
                     <i class="fab fa-linkedin-in"></i>
@@ -1347,6 +1372,34 @@
                 }
             });
         }
+
+        // --- 4. Anti-Scraping Dynamic Contact Decryption ---
+        (function() {
+            var u = "c291ZmlhbmUua2hhdHRhYg=="; // base64 for soufiane.khattab
+            var d = "Z21haWwuY29t";             // base64 for gmail.com
+            var p = "MDY1MTU5MDkwNw==";         // base64 for 0651590907
+            var pf = "MDYgNTEgNTkgMDkgMDc=";    // base64 for 06 51 59 09 07
+
+            function decode(b64) {
+                try { return atob(b64); } catch(e) { return ""; }
+            }
+
+            var emailAddr = decode(u) + "@" + decode(d);
+            var phoneNum = decode(p);
+            var phoneDisplay = decode(pf);
+
+            document.querySelectorAll('.protected-contact-email').forEach(function(el) {
+                el.href = 'mailto:' + emailAddr;
+                var textSpan = el.querySelector('.contact-email-text');
+                if (textSpan) textSpan.textContent = emailAddr;
+            });
+
+            document.querySelectorAll('.protected-contact-phone').forEach(function(el) {
+                el.href = 'tel:' + phoneNum;
+                var textSpan = el.querySelector('.contact-phone-text');
+                if (textSpan) textSpan.textContent = phoneDisplay;
+            });
+        })();
     </script>
 </body>
 </html>

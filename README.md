@@ -28,8 +28,7 @@ Bienvenue sur le dépôt du site personnel et portfolio de **Soufiane KHATTAB**,
 
 ## 📬 Contact
 
-- **Email :** [soufiane.khattab@gmail.com](mailto:soufiane.khattab@gmail.com)
-- **Téléphone :** 06 51 59 09 07
+- **Email :** `soufiane.khattab [at] gmail.com` (ou via le contact direct sur le [site web](https://kayosoufiane.github.io/#contact))
 - **LinkedIn :** [linkedin.com/in/soufiane-khattab](https://www.linkedin.com/in/soufiane-khattab/)
 - **GitHub :** [github.com/kayosoufiane](https://github.com/kayosoufiane)
 - **Localisation :** Paris, France
